@@ -1,0 +1,29 @@
+{
+  "name": "concurrency",
+  "version": "1.0.0",
+  "description": "Example if many concurrent CircleCI® jobs",
+  "main": "src/multiply.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kienstra/concurrency.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Ryan Kienstra",
+  "license": "GPL-2.0-or-later",
+  "engines": {
+    "node": "16"
+  },
+  "bugs": {
+    "url": "https://github.com/kienstra/concurrency/issues"
+  },
+  "homepage": "https://github.com/kienstra/concurrency#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.7",
+    "jest": "^27.4.7"
+  }
+}
